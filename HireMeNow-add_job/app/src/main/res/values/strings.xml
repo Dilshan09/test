@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">MAD</string>
+    <string name="JOBPOSITION" translatable="false">Job Position</string>
+    <string name="COMPANYNAME" translatable="false">Company Name</string>
+    <string name="COMPANYADDRESS" translatable="false">Company Address</string>
+    <string name="NOVACANCIES" translatable="false">Number of Vacancies</string>
+    <string name="MAINREQ" translatable="false">Main Requirement</string>
+    <string name="ADREQ" translatable="false">Additional Requirement</string>
+    <string name="JOBSAL" translatable="false">Job Salary</string>
+    <string name="ALLOWANCE" translatable="false">Allowance</string>
+    <string name="OT" translatable="false">OT salary for a day</string>
+    <string name="BASICSAL" translatable="false">Basic Salary</string>
+    <string name="finaltot" translatable="false">######.##</string>
+</resources>

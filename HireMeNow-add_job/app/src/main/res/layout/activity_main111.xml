@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity111">
+
+
+    <Button
+        android:id="@+id/profile2"
+        android:layout_width="416dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Add New Parking "
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="366dp"
+        android:layout_height="553dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="503dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="143dp">
+
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="340dp"
+                android:layout_height="@dimen/my_dimen5"
+                android:layout_marginTop="@dimen/my_dimen6"
+                android:layout_marginEnd="@dimen/my_dimen6"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#E1E3E5"
+                android:ems="10"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:freezesText="false"
+                android:gravity="center"
+                android:hint="Owners   Name"
+                android:inputType="textPersonName"
+                android:minHeight="@dimen/my_dimen7"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/my_dimen8"
+                app:layout_marginBaseline="@dimen/my_dimen9"
+                tools:ignore="DuplicateIds" />
+
+
+            <EditText
+                android:id="@+id/Mail"
+                android:layout_width="@dimen/my_dimen4"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#E1E3E5"
+                android:ems="10"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:freezesText="false"
+                android:gravity="center"
+                android:hint="Owners  Mail"
+                android:inputType="textPersonName"
+                android:minHeight="@dimen/my_dimen7"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/my_dimen8"
+                app:layout_marginBaseline="@dimen/my_dimen9"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="61dp" />
+
+            <EditText
+                android:id="@+id/TeleNo"
+                android:layout_width="@dimen/my_dimen4"
+                android:layout_height="@dimen/my_dimen5"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#E1E3E5"
+                android:ems="10"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:freezesText="false"
+                android:gravity="center"
+                android:hint="Telephone Number"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="@dimen/my_dimen8"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_marginBaseline="@dimen/my_dimen9"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="61dp" />
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="58dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="143dp">
+
+                <EditText
+                    android:id="@+id/file"
+                    android:layout_width="175dp"
+                    android:layout_height="58dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:ems="10"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:freezesText="false"
+                    android:gravity="center"
+                    android:hint="Uploaded file"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+
+                    android:textSize="@dimen/my_dimen8"
+                    app:layout_marginBaseline="@dimen/my_dimen9"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="61dp" />
+
+                <Button
+                    android:id="@+id/upload"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:drawableRight="@drawable/uplad"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Upload"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/slots"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Slots"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="58dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="143dp">
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   1"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/bt2"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   2"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="58dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="143dp">
+
+                <Button
+                    android:id="@+id/bt3"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   3"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/bt4"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   4"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="58dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="143dp">
+
+                <Button
+                    android:id="@+id/bt5"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   5"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/bt6"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   6"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="58dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="143dp">
+
+                <Button
+                    android:id="@+id/bt7"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   7"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/bt8"
+                    android:layout_width="171dp"
+                    android:layout_height="@dimen/my_dimen5"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#E1E3E5"
+                    android:fontFamily="@font/baloo_bhaina_2_semibold"
+                    android:text="Slot   8"
+                    android:textColor="@color/material_dynamic_neutral0"
+                    android:textSize="@dimen/my_dimen17"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:gravity="center"
+                android:text="Please double check the details!! "
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/submit2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_dimen5"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:text="submit"
+                android:textColor="@color/material_dynamic_neutral0"
+                android:textSize="28sp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/cancel2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_dimen5"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="@font/baloo_bhaina_2_semibold"
+                android:text="cancel"
+                android:textColor="@color/material_dynamic_neutral0"
+                android:textSize="28sp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

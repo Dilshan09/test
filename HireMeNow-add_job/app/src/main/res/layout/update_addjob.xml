@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity888"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="415dp"
+        android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/up1"
+        tools:ignore="MissingConstraints"
+
+        />
+
+
+    <ScrollView
+        android:layout_width="417dp"
+        android:layout_height="405dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="143dp">
+
+
+            <TextView
+                android:id="@+id/caName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:foregroundGravity="center"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Owner Name"
+                android:textColor="#FF090808"
+                android:textColorHint="#090808"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/caaName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/caMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Owner Mail"
+                android:textColor="#FF090808"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/caaMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/caTeleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Telephone Number"
+                android:textColor="#FF090808"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/caaTeleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="DuplicateIds,MissingConstraints,SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/cafile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Agreement"
+                android:textColor="#FF090808"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/caafile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+
+            <Button
+                android:id="@+id/cedit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#FFBB33"
+                android:fontFamily="@font/acme"
+                android:text="CONFIRM"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

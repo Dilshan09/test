@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "874100668894",
+    "project_id": "slots-92189",
+    "storage_bucket": "slots-92189.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874100668894:android:f467e57c447ea8c415c54f",
+        "android_client_info": {
+          "package_name": "com.example.mad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApAPejvFKQ9bwp50MVPKby_RU0f5q_3pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

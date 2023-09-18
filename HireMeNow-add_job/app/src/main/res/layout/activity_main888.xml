@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity888"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="415dp"
+        android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ad1"
+        tools:ignore="MissingConstraints"
+
+    />
+
+
+    <ScrollView
+        android:layout_width="417dp"
+        android:layout_height="405dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="143dp">
+
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:foregroundGravity="center"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Owner Name"
+                android:textColor="#000000"
+                android:textColorHint="#090808"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/aName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/Mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Owners Mail"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/aMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/TeleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Telephone number"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/aTeleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Aggrement"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/afile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/acme"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="MissingConstraints"/>
+
+            <Button
+                android:id="@+id/edit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#FFBB33"
+                android:fontFamily="@font/acme"
+                android:text="EDIT"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/delete5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#FFBB33"
+                android:fontFamily="@font/acme"
+                android:text="DELETE"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/aajobId"
+        android:layout_width="62dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:textColor="#5050ff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
